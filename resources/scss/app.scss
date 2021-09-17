@@ -1,0 +1,36 @@
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    padding-top: 20px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+tr {
+    & th:first-child{
+        width: 30px;
+    }
+}
+
+.button-tray {
+    width: 100px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.btn-outline-success {
+    border: 1px solid #4cae4c;
+    &:hover {
+
+    }
+}
+
+footer {
+    padding-top: 150px;
+}
